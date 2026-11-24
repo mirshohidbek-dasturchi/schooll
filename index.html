@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="uz" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meta IT School — Zamonaviy Kasblar va Dasturlash Akademiyasi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Top Announcement Bar -->
+  <div class="top-banner">
+    <div class="container top-banner-inner">
+      <span><i class="fa-solid fa-fire"></i> Yangi guruhlarga qabul boshlandi! Bepul ochiq darsga ro'yxatdan o'ting.</span>
+      <a href="#register" class="banner-link">Joy band qilish <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="brand">
+        <img src="images/meta-logo.png" alt="Meta IT School Logo" class="brand-logo" />
+        <div class="brand-text">
+          <span class="brand-title">Meta IT</span>
+          <span class="brand-sub">School</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">Biz haqimizda</a>
+        <a href="#courses">Kurslar</a>
+        <a href="#mentors">Ustozlar</a>
+        <a href="#projects">Loyihalar</a>
+        <a href="#faq">Savollar</a>
+        <a href="#contact">Aloqa</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Mavzuni o'zgartirish" title="Tungi / Kunduzgi rejim">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <a href="#register" class="btn btn-primary">Bepul darsga yozilish</a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menyu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+    </div>
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="badge">
+          <span class="pulse-dot"></span>
+          Kelajak kasblarini bugundan o'rganing
+        </div>
+        <h1>Meta IT School bilan <span>yuqori daromadli</span> IT mutaxassisiga aylaning</h1>
+        <p class="hero-desc">
+          Amaliyotga asoslangan zamonaviy dasturlash, dizayn va sun'iy intellekt kurslari. Tajribali mentorlar nazorati ostida 0 dan real loyihalargacha o'rganing va karyerangizni boshlang.
+        </p>
+        <div class="hero-buttons">
+          <a href="#courses" class="btn btn-primary btn-lg">
+            <i class="fa-solid fa-graduation-cap"></i> Kurslarni ko'rish
+          </a>
+          <a href="#register" class="btn btn-outline btn-lg">
+            <i class="fa-solid fa-phone-volume"></i> Bepul konsultatsiya
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <h3 class="counter" data-target="1250">0</h3>
+            <span>Bitiruvchilar</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <h3 class="counter" data-target="87">0</h3>
+            <span>Ishga joylashish (%)</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <h3 class="counter" data-target="14">0</h3>
+            <span>Amaliy yo'nalishlar</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-card main-card">
+          <div class="card-header-dots">
+            <span></span><span></span><span></span>
+            <small>meta-it-school.uz</small>
+          </div>
+          <div class="code-preview">
+            <pre><code><span class="c-keyword">const</span> <span class="c-var">student</span> = {
+  <span class="c-prop">academy</span>: <span class="c-str">"Meta IT School"</span>,
+  <span class="c-prop">skills</span>: [<span class="c-str">"Frontend"</span>, <span class="c-str">"Backend"</span>, <span class="c-str">"AI"</span>, <span class="c-str">"UI/UX"</span>],
+  <span class="c-prop">practice</span>: <span class="c-str">"100% Real Projects"</span>,
+  <span class="c-prop">status</span>: <span class="c-str">"Ready for Global IT Market 🚀"</span>
+};
+
+<span class="c-func">startCareer</span>(student);</code></pre>
+          </div>
+          <div class="floating-badge badge-top">
+            <i class="fa-solid fa-award"></i>
+            <div>
+              <strong>Sertifikat</strong>
+              <span>Xalqaro standart asosida</span>
+            </div>
+          </div>
+          <div class="floating-badge badge-bottom">
+            <i class="fa-solid fa-laptop-code"></i>
+            <div>
+              <strong>24/7 Coworking</strong>
+              <span>Bepul Wi-Fi va mentor yordami</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Advantages Section -->
+  <section id="about" class="section bg-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Nega aynan biz?</span>
+        <h2>Meta IT School afzalliklari</h2>
+        <p>Biz shunchaki nazariya o'rgatmaymiz — sizni IT kompaniyalarda ishlashga tayyor mutaxassis qilib yetishtiramiz.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-code"></i></div>
+          <h3>80% Amaliyot, 20% Nazariya</h3>
+          <p>Har bir darsda real loyihalar ustida ishlaysiz va kurs yakunida kuchli GitHub portfolioga ega bo'lasiz.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-user-tie"></i></div>
+          <h3>Senior & Middle Ustozlar</h3>
+          <p>Katta tajribaga ega amaliyotchi dasturchilar sizga bozor talabidagi eng so'nggi texnologiyalarni o'rgatadi.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-building-laptop"></i></div>
+          <h3>Zamonaviy Coworking</h3>
+          <p>Darsdan tashqari vaqtlarda ham akademiyaga kelib, yordamchi mentorlar bilan vazifalarni bajarish imkoniyati.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-briefcase"></i></div>
+          <h3>Karyera markazi</h3>
+          <p>Rezyume tayyorlash, texnik suhbatlarga tayyorgarlik va hamkor IT kompaniyalarga tavsiya berish xizmati.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-users"></i></div>
+          <h3>Kichik guruhlar</h3>
+          <p>Har bir guruhda 10–12 nafar o'quvchi bo'lib, ustoz har bir talabaga individual e'tibor qaratadi.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fa-solid fa-trophy"></i></div>
+          <h3>Hackathon va Musobaqalar</h3>
+          <p>Har oyda o'tkaziladigan ichki musobaqalar va jamoaviy loyihalarda qatnashib, sovrinlar yutib oling.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Courses Section with Filter -->
+  <section id="courses" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">O'quv dasturlari</span>
+        <h2>Mashhur IT kurslarimiz</h2>
+        <p>O'zingizga mos yo'nalishni tanlang va 4 oydan 8 oygacha bo'lgan muddatda kasb egasi bo'ling.</p>
+      </div>
+
+      <div class="course-filters">
+        <button class="filter-btn active" data-filter="all">Barcha kurslar</button>
+        <button class="filter-btn" data-filter="web">Web Dasturlash</button>
+        <button class="filter-btn" data-filter="mobile">Mobil & AI</button>
+        <button class="filter-btn" data-filter="design">Dizayn & Marketing</button>
+      </div>
+
+      <div class="courses-grid" id="coursesGrid">
+        <!-- Course 1 -->
+        <div class="course-card" data-category="web">
+          <div class="course-badge">Eng mashhur</div>
+          <div class="course-icon blue"><i class="fa-brands fa-react"></i></div>
+          <h3>Frontend Dasturlash</h3>
+          <p>HTML5, CSS3, Tailwind, JavaScript (ES6+), TypeScript, React.js va Next.js texnologiyalarini mukammal o'rganing.</p>
+          <ul class="course-meta">
+            <li><i class="fa-regular fa-clock"></i> 9 oy</li>
+            <li><i class="fa-solid fa-layer-group"></i> 72 ta dars</li>
+            <li><i class="fa-solid fa-folder-open"></i> 8 ta loyiha</li>
+          </ul>
+          <div class="course-footer">
+            <div class="course-price">
+              <small>Oylik to'lov</small>
+              <strong>480 000 so'm</strong>
+            </div>
+            <button class="btn btn-primary btn-sm select-course-btn" data-course="Frontend Dasturlash">Yozilish</button>
+          </div>
+        </div>
+
+        <!-- Course 2 -->
+        <div class="course-card" data-category="web">
+          <div class="course-badge green">Talab yuqori</div>
+          <div class="course-icon indigo"><i class="fa-brands fa-python"></i></div>
+          <h3>Python Backend & Telegram Bot</h3>
+          <p>Python, Django, FastAPI, PostgreSQL, Docker va murakkab Telegram botlar hamda REST API yaratish.</p>
+          <ul class="course-meta">
+            <li><i class="fa-regular fa-clock"></i> 6 oy</li>
+            <li><i class="fa-solid fa-layer-group"></i> 72 ta dars</li>
+            <li><i class="fa-solid fa-folder-open"></i> 7 ta loyiha</li>
+          </ul>
+          <div class="course-footer">
+            <div class="course-price">
+              <small>Oylik to'lov</small>
+              <strong>480 000 so'm</strong>
+            </div>
+            <button class="btn btn-primary btn-sm select-course-btn" data-course="Python Backend">Yozilish</button>
+          </div>
+        </div>
+
+        <!-- Course 3 -->
+        <div class="course-card" data-category="mobile">
+          <div class="course-badge purple">Yangi</div>
+          <div class="course-icon purple"><i class="fa-solid fa-robot"></i></div>
+          <h3>Sun'iy Intellekt & Data Science</h3>
+          <p>Machine Learning, Deep Learning, Neyron tarmoqlar, ChatGPT API integratsiyasi va ma'lumotlar tahlili.</p>
+          <ul class="course-meta">
+            <li><i class="fa-regular fa-clock"></i> 7 oy</li>
+            <li><i class="fa-solid fa-layer-group"></i> 84 ta dars</li>
+            <li><i class="fa-solid fa-folder-open"></i> 6 ta loyiha</li>
+          </ul>
+          <div class="course-footer">
+            <div class="course-price">
+              <small>Oylik to'lov</small>
+              <strong>480 000 so'm</strong>
+            </div>
+            <button class="btn btn-primary btn-sm select-course-btn" data-course="Sun'iy Intellekt & Data Science">Yozilish</button>
+          </div>
+        </div>
+
+        <!-- Course 4 -->
+        <div class="course-card" data-category="mobile">
+          <div class="course-icon cyan"><i class="fa-solid fa-mobile-screen-button"></i></div>
+          <h3>Flutter Mobil Dasturlash</h3>
+          <p>Bitta kod bazasi orqali Android va iOS platformalari uchun tezkor va chiroyli mobil ilovalar yarating.</p>
+          <ul class="course-meta">
+            <li><i class="fa-regular fa-clock"></i> 6 oy</li>
+            <li><i class="fa-solid fa-layer-group"></i> 72 ta dars</li>
+            <li><i class="fa-solid fa-folder-open"></i> 5 ta ilova</li>
+          </ul>
+          <div class="course-footer">
+            <div class="course-price">
+              <small>Oylik to'lov</small>
+              <strong>750 000 so'm</strong>
+            </div>
+            <button class="btn btn-primary btn-sm select-course-btn" data-course="Flutter Mobil Dasturlash">Yozilish</button>
+          </div>
+        </div>
+
+        <!-- Course 5 -->
+        <div class="course-card" data-category="design">
+          <div class="course-icon pink"><i class="fa-solid fa-pen-nib"></i></div>
+          <h3>UI/UX va Grafik Dizayn</h3>
+          <p>Figma, Adobe Photoshop, Illustrator, sayt va mobil ilovalar interfeysi hamda brending dizayni.</p>
+          <ul class="course-meta">
+            <li><i class="fa-regular fa-clock"></i> 4 oy</li>
+            <li><i class="fa-solid fa-layer-group"></i> 48 ta dars</li>
+            <li><i class="fa-solid fa-folder-open"></i> 10 ta keys</li>
+          </ul>
+          <div class="course-footer">
+            <div class="course-price">
+              <small>Oylik to'lov</small>
+              <strong>600 000 so'm</strong>
+            </div>
+            <button class="btn btn-primary btn-sm select-course-btn" data-course="UI/UX va Grafik Dizayn">Yozilish</button>
+          </div>
+        </div>
+
+        <!-- Course 6 -->
+        <div class="course-card" data-category="web">
+          <div class="course-icon orange"><i class="fa-solid fa-shield-halved"></i></div>
+          <h3>Kiberxavfsizlik Asoslari</h3>
+          <p>Linux administratsiya, tarmoq xavfsizligi, Ethical Hacking va veb-ilovalarni himoya qilish usullari.</p>
+          <ul class="course-meta">
+            <li><i class="fa-regular fa-clock"></i> 5 oy</li>
+            <li><i class="fa-solid fa-layer-group"></i> 60 ta dars</li>
+            <li><i class="fa-solid fa-folder-open"></i> 12 ta laboratoriya</li>
+          </ul>
+          <div class="course-footer">
+            <div class="course-price">
+              <small>Oylik to'lov</small>
+              <strong>600 000 so'm</strong>
+            </div>
+            <button class="btn btn-primary btn-sm select-course-btn" data-course="Kiberxavfsizlik Asoslari">Yozilish</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mentors / Teachers Section -->
+  <section id="mentors" class="section bg-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Jamoamiz</span>
+        <h2>Tajribali Ustozlarimiz</h2>
+        <p>Sizga real IT kompaniyalarda faoliyat yurituvchi kuchli mutaxassislar dars berishadi.</p>
+      </div>
+
+      <div class="mentors-grid">
+        <!-- 1-ustoz: ikkinchidagi rasm (bunyodbek.png) -->
+        <div class="mentor-card">
+          <div class="mentor-img-wrap">
+            <img src="images/teacher1-bunyodbek.png" alt="Bunyodbek — Senior Full-Stack Mentor" />
+            <span class="mentor-exp">5+ yil tajriba</span>
+          </div>
+          <div class="mentor-info">
+            <h3>Bunyodbek</h3>
+            <p class="mentor-role">Senior Full-Stack Dasturchi & Tech Lead</p>
+            <p class="mentor-bio">
+              React, Node.js, Python va yuqori yuklamali tizimlar arxitektori. 350 dan ortiq o'quvchilarni IT sohasiga olib kirgan.
+            </p>
+            <div class="mentor-skills">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>TypeScript</span>
+              <span>PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2-ustoz: ohirgi rasm (xurshidbek.png) -->
+        <div class="mentor-card">
+          <div class="mentor-img-wrap">
+            <img src="images/teacher2-xurshidbek.png" alt="Xurshidbek — Meta IT School Asoschisi & Mentor" />
+            <span class="mentor-exp">6+ yil tajriba</span>
+          </div>
+          <div class="mentor-info">
+            <h3>Xurshidbek</h3>
+            <p class="mentor-role">Meta IT School Rahbari & Backend / AI Mentori</p>
+            <p class="mentor-bio">
+              Xalqaro IT loyihalar ishtirokchisi, Python, Sun'iy Intellekt va startap ekotizimi bo'yicha yetakchi mutaxassis.
+            </p>
+            <div class="mentor-skills">
+              <span>Python</span>
+              <span>AI / ML</span>
+              <span>FastAPI</span>
+              <span>System Design</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3-ustoz (ohirgi o'qituvchi): birinchidagi rasm (muhammadnosir.png) -->
+        <div class="mentor-card">
+          <div class="mentor-img-wrap">
+            <img src="images/teacher3-muhammadnosir.png" alt="Muhammadnosir — Frontend & UI/UX Mentor" />
+            <span class="mentor-exp">4+ yil tajriba</span>
+          </div>
+          <div class="mentor-info">
+            <h3>Muhammadnosir</h3>
+            <p class="mentor-role">Frontend Dasturchi & UI/UX Dizayner</p>
+            <p class="mentor-bio">
+              Zamonaviy veb-interfeyslar, animatsiyalar va foydalanuvchi tajribasini loyihalash bo'yicha amaliyotchi ustoz.
+            </p>
+            <div class="mentor-skills">
+              <span>JavaScript</span>
+              <span>Next.js</span>
+              <span>Tailwind</span>
+              <span>Figma</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Student Projects / Portfolio Showcase -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Natijalar</span>
+        <h2>O'quvchilarimiz yaratgan loyihalar</h2>
+        <p>Bitiruvchilarimiz o'qish davomida ishlab chiqqan real veb-sayt va ilovalardan namunalar.</p>
+      </div>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-banner grad-1">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="project-body">
+            <span class="project-cat">E-Commerce Platforma</span>
+            <h3>UzMarket Online Do'kon</h3>
+            <p>To'lov tizimlari, savatcha, admin panel va tezkor qidiruvga ega to'liq funksional internet-do'kon.</p>
+            <div class="project-tech">
+              <span>React</span><span>Django</span><span>Payme API</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-banner grad-2">
+            <i class="fa-solid fa-brain"></i>
+          </div>
+          <div class="project-body">
+            <span class="project-cat">Sun'iy Intellekt</span>
+            <h3>MetaAI Yordamchi Bot</h3>
+            <p>O'zbek tilidagi matn va ovozli savollarga javob beruvchi aqlli Telegram va veb-assistent.</p>
+            <div class="project-tech">
+              <span>Python</span><span>OpenAI</span><span>Aiogram</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-banner grad-3">
+            <i class="fa-solid fa-hospital"></i>
+          </div>
+          <div class="project-body">
+            <span class="project-cat">CRM & Avtomatlashtirish</span>
+            <h3>MedClinic Boshqaruv Tizimi</h3>
+            <p>Shifoxonalar uchun bemorlar navbati, elektron karta va moliyaviy hisobotlarni yurituvchi tizim.</p>
+            <div class="project-tech">
+              <span>Next.js</span><span>PostgreSQL</span><span>Tailwind</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section bg-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Fikrlar</span>
+        <h2>Bitiruvchilarimiz biz haqimizda</h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p>"Meta IT School'ga kelganimda dasturlashdan umuman xabarim yo'q edi. 6 oylik Frontend kursidan so'ng hozirda IT kompaniyada Junior dasturchi bo'lib ishlayapman."</p>
+          <div class="student-meta">
+            <div class="avatar-circle">A</div>
+            <div>
+              <strong>Azizbek Karimov</strong>
+              <span>Frontend Developer</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p>"Ustozlarning tushuntirish uslubi juda zo'r. Har bir mavzu amaliy loyiha bilan mustahkamlanadi. Coworking zonasi esa darsdan keyin ishlash uchun juda qulay."</p>
+          <div class="student-meta">
+            <div class="avatar-circle">M</div>
+            <div>
+              <strong>Madina Rustamova</strong>
+              <span>UI/UX Dizayner</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p>"Python Backend kursini tamomlab, frilansda ilk buyurtmalarimni oldim. O'quv markazdagi muhit insonni doim rivojlanishga undaydi."</p>
+          <div class="student-meta">
+            <div class="avatar-circle">S</div>
+            <div>
+              <strong>Sardorbek Tursunov</strong>
+              <span>Python Backend Developer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Accordion Section -->
+  <section id="faq" class="section">
+    <div class="container faq-container">
+      <div class="section-header">
+        <span class="section-tag">Ko'p beriladigan savollar</span>
+        <h2>Savollaringizga javoblar</h2>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item active">
+          <button class="faq-question">
+            <span>Dasturlashni o'rganish uchun oldindan bilim kerakmi?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yo'q, barcha kurslarimiz mutlaqo 0 dan boshlanadi. Kompyuterdan foydalanishning boshlang'ich ko'nikmalari bo'lsa kifoya — qolgan barcha bilimlarni ustozlarimiz bosqichma-bosqich o'rgatishadi.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Shaxsiy noutbuk bo'lishi shartmi?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Dars jarayonida o'quv markazimizning zamonaviy kompyuterlaridan bepul foydalanishingiz mumkin. Uyga vazifalarni bajarish uchun esa noutbuk bo'lishi tavsiya etiladi.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Kursni tugatgandan so'ng sertifikat beriladimi?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Ha, bitiruv loyihasini muvaffaqiyatli himoya qilgan barcha o'quvchilarga maxsus QR-kodli rasmiy sertifikat topshiriladi.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Birinchi darsda qatnashib ko'rsam bo'ladimi?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Albatta! Har bir yo'nalish bo'yicha birinchi tanishuv va ochiq darsimiz mutlaqo bepul. Pastdagi forma orqali ro'yxatdan o'tishingiz mumkin.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Registration CTA Section -->
+  <section id="register" class="section cta-section">
+    <div class="container cta-grid">
+      <div class="cta-text">
+        <span class="badge light">Bepul ochiq dars</span>
+        <h2>IT olamiga ilk qadamni bugun tashlang!</h2>
+        <p>Ma'lumotlaringizni qoldiring — menejerlarimiz siz bilan bog'lanib, mos kurs tanlashda yordam berishadi va bepul sinov darsiga taklif qilishadi.</p>
+        <ul class="cta-benefits">
+          <li><i class="fa-solid fa-circle-check"></i> Shaxsiy karyera rejasi tuzib berish</li>
+          <li><i class="fa-solid fa-circle-check"></i> Ustozlar bilan jonli tanishuv</li>
+          <li><i class="fa-solid fa-circle-check"></i> Chegirmalar va grantlar haqida ma'lumot</li>
+        </ul>
+      </div>
+
+      <form class="register-form" id="registerForm">
+        <h3>Ro'yxatdan o'tish</h3>
+        <div class="form-group">
+          <label for="fullName">Ism va familiyangiz</label>
+          <input type="text" id="fullName" placeholder="Masalan: Jasurbek Aliyev" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Telefon raqamingiz</label>
+          <input type="tel" id="phone" placeholder="+998 90 123 45 67" required />
+        </div>
+        <div class="form-group">
+          <label for="courseSelect">Qaysi kurs qiziqtiryapti?</label>
+          <select id="courseSelect" required>
+            <option value="Frontend Dasturlash">Frontend Dasturlash</option>
+            <option value="Python Backend">Python Backend & Telegram Bot</option>
+            <option value="Sun'iy Intellekt & Data Science">Sun'iy Intellekt & Data Science</option>
+            <option value="Flutter Mobil Dasturlash">Flutter Mobil Dasturlash</option>
+            <option value="UI/UX va Grafik Dizayn">UI/UX va Grafik Dizayn</option>
+            <option value="Kiberxavfsizlik Asoslari">Kiberxavfsizlik Asoslari</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block btn-lg">
+          Ariza yuborish <i class="fa-solid fa-paper-plane"></i>
+        </button>
+        <div class="form-success" id="formSuccess">
+          <i class="fa-solid fa-circle-check"></i>
+          <span>Arizangiz qabul qilindi! Tez orada operatorlarimiz bog'lanishadi.</span>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="brand">
+          <img src="images/meta-logo.png" alt="Meta IT School Logo" class="brand-logo" />
+          <div class="brand-text">
+            <span class="brand-title">Meta IT</span>
+            <span class="brand-sub">School</span>
+          </div>
+        </a>
+        <p>Zamonaviy kasblar va dasturlash akademiyasi. Biz bilan kelajagingizni ishonchli quring.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Kurslar</h4>
+        <ul>
+          <li><a href="#courses">Frontend Dasturlash</a></li>
+          <li><a href="#courses">Python Backend</a></li>
+          <li><a href="#courses">Sun'iy Intellekt</a></li>
+          <li><a href="#courses">UI/UX Dizayn</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Akademiya</h4>
+        <ul>
+          <li><a href="#about">Afzalliklarimiz</a></li>
+          <li><a href="#mentors">Ustozlar jamoasi</a></li>
+          <li><a href="#projects">O'quvchilar loyihalari</a></li>
+          <li><a href="#faq">Ko'p beriladigan savollar</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Bog'lanish</h4>
+        <ul class="contact-info">
+          <li><i class="fa-solid fa-phone"></i> +998 (94) 154 44 88</li>
+          <li><i class="fa-solid fa-envelope"></i> info@metaitschool.uz</li>
+          <li><i class="fa-solid fa-location-dot"></i> Andijon, Meta IT School markazi</li>
+          <li><i class="fa-regular fa-clock"></i> Du - Sha: 09:00 – 22:00</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Meta IT School. Barcha huquqlar himoyalangan.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
